@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+.font-family{
+    font-family: "Anta", sans-serif;
+}
+
+body {
+  background-color: #d9e7f3;
+  overflow-y: auto; /* Membuat konten dapat discroll jika melebihi ukuran container */
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}      
+
+body::-webkit-scrollbar-thumb {
+    background-color: #087bff;
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track {
+   background: white;
+}
+
+.brand{
+    font-weight: bold;
+
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.ftext{
+    font-family: "Anta", sans-serif;
+}
+
+.ftext-2{
+    font-family: "Anta", sans-serif;
+}
+
+.navbar{
+    background-color: #d9e7f3;
+}
+
+.header{
+    padding-top: 5rem;
+}
+
+
+.forum{
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.salam{
+    text-align: justify;
+}
+
+.help{
+    margin-right: 30px;
+}
+
+.button{
+    border: none;
+    background: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    transition: all .3s ease;
+}
+
+.button:hover{
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.persetujuan{
+    font-size: 12px;
+}
+
+.album{
+    padding: 10px;
+    background-color: #00101D;
+    color: white;
+}
+
+.album-text{
+    font-family: "Anta", sans-serif;
+    text-align: center;
+}
+
+.text-end{
+    color: white;
+}
+
+img{
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.rounded{
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.rounded:hover {
+    transform: translateY(-5px); /* Mengangkat gambar 5px saat cursor berada di atasnya */
+}
+
+
+.card1{
+   padding: 20px;
+   border-radius: 30px;
+}
+
+.infohelps{
+    background-color: #d9e7f3;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.infohelps p{
+    text-align: justify;
+}
+
+span{
+    user-select: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+.carousel-caption{
+    font-weight: bold;
+    
+}
+
+.custom-tooltip .tooltip-inner {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+.upload-area {
+    border: 2px dashed #000000;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .upload-area h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .fileinput-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+  
+  .fileinput-label svg {
+    margin-bottom: 10px;
+  }
+  
+  #fileinput {
+    display: none;
+  }
+
+
+.form-control{
+    border: 2px solid black;
+}
+
+
+.supportchat{
+    border-radius: 50%;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+.bantuanform{
+    background-color: #161616;
+}

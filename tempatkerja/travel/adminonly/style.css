@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+
+:root {
+    --light: #f6f6f9;
+    --primary: #1976D2;
+    --light-primary: #CFE8FF;
+    --grey: #eee;
+    --dark-grey: #AAAAAA;
+    --dark: #363949;
+    --danger: #D32F2F;
+	--light-danger: #FECDD3;
+    --warning: #FBC02D;
+    --light-warning: #FFF2C6;
+    --success: #388E3C;
+    --light-success: #BBF7D0;
+}
+
+
+.font-family{
+    font-family: "Anta", sans-serif;
+}
+
+body {
+    color: white;
+    background: var(--grey);
+  overflow-y: auto; /* Membuat konten dapat discroll jika melebihi ukuran container */
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}      
+
+body::-webkit-scrollbar-thumb {
+    background-color: #087bff;
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track {
+   background: white;
+}
+
+.brand{
+    font-weight: bold;
+
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.ftext{
+    font-family: "Anta", sans-serif;
+}
+
+.ftext-2{
+    font-family: "Anta", sans-serif;
+}
+
+.navbar{
+    background-color: #d9e7f3;
+}
+
+
+
+.navbar-bottom{
+    box-shadow: 20px 20px 0 var(--grey);
+}
+
+
+
+.konten{ 
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 25rem;
+}
+
+.konten1{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bi{
+    font-size: 40px;
+    padding: 10px 20px;
+}
+
+
+.headeranalisa{
+    border-radius: 10px;
+    padding: 10px;
+    user-select: none;
+    color: black;
+}
+
+.headeranalisa p{
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.container-analisa{
+    display: flex;
+}
+
+.container-analisa p{
+    line-height: 30px;
+}
+
+.text-analisa{
+    border-radius: 10px;
+    background: var(--light-primary);
+    padding: 10px;
+}
+
+.analisa{
+    border-radius: 50%;
+    text-align: center;
+    width: 120px;
+    background: var(--light-danger);
+    padding: 30px
+}
+
+
+.users{
+    background: var(--light-primary);
+}
+
+.money{
+    background: var(--light-success);
+}
+
+
+.analisis{
+    font-weight: bold;
+    font-size: 50px !important;
+}
+
+
+.users{
+    margin-left: auto;
+}
+
+.change{
+  overflow-y: auto; /* Membuat konten dapat discroll jika melebihi ukuran container */
+  height: 12rem;
+  border-radius: 10px;
+}
+
+.change::-webkit-scrollbar {
+    width: 12px;
+}      
+
+.change::-webkit-scrollbar-thumb {
+    background-color: #c5c5c5;
+    border-radius: 4px;
+}
+
+.change::-webkit-scrollbar-track {
+   background: white;
+}
+
+.buttonedit{
+    cursor: pointer;
+    border: 2px dashed rgb(105, 105, 105) ;
+    border-radius: 14px;
+    height: 4rem;
+    background: var(--light-primary);
+    transition: all .3s ease;
+}
+
+.buttonedit:hover{
+    background-color: hsl(209, 75%, 87%);
+}
+
+.updateprice{
+    user-select: none;
+    font-weight: bold;
+    line-height: 60px;
+    color: black;
+    text-align: center;
+}
+
+.listlogo{
+    color: black;
+    display: flex;
+}
+
+.listlogo h3{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    user-select: none;
+}
+
+.listlogo span{
+    user-select: none;
+    inline-size: 30px;
+}
+
+.col2{
+    background-color: rgb(255, 255, 255);
+    border: 2px dashed  rgb(8, 30, 226);
+}
+
+.col2 p{
+    font-weight: bold;
+    color: black;
+    line-height: 4rem;
+}
+
+
+.form-text{
+    color: rgb(70, 70, 70);
+    font-weight: bold;
+}
+
+.shadow1{
+    background-color: #1C1D24;
+    box-shadow: -2px 3px 8px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px 3px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 3px 8px 0px rgba(0,0,0,0.75);
+}
+
+.navfix{
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+     text-decoration: none;
+     margin-left: 40px;
+     transition: all .4s ease;
+     text-align: center;
+ }
+ 
+ .navfix:hover{
+     color: rgb(155, 155, 155);
+ }
+ 
+ .active{
+     border-top: 1px solid black;
+ }
+ 
+ 
+ 
+ span{
+     font-size: 30px !important;
+ }
+
+
+
+
+
+
+
+
+
+ 
+
+ .kontenprivacy{
+    background-color: rgb(43, 43, 43);
+ }
+
+ .infodatapribadi{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+ }
+
+ .infodatapribadi ol{
+    color: black;
+    text-align: justify;
+    font-weight: 400;
+    user-select: none;
+ }
+
+ .colom3{
+    background-color: black !important;
+ }

@@ -1,0 +1,64 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 300px; /* Sesuaikan lebar sesuai kebutuhan */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px auto; /* Sesuaikan margin sesuai kebutuhan */
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px;
+    background: transparent;
+  }
+  
+  .material-symbols-outlined {
+    font-size: 24px;
+    color: #ccc;
+    margin-right: 5px;
+  }
+  
+  .search-container:hover .material-symbols-outlined {
+    color: #000;
+  }
+  
+  .search-container:focus-within {
+    border-color: #000;
+  }
+  
+  .search-container:focus-within .material-symbols-outlined {
+    color: #000;
+  }
+  
+
+  .konten{
+    border-radius: 10px;
+    background-color: #f6fdff;
+    padding: 30px;
+  }
+
+  .konten ol{
+    font-weight: bold;
+  }
+
+
+  .notfound{
+    border: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .notfound p{
+    font-weight: bold;
+    color: black;
+  }
+  
+  .notfound span{
+    color: black;
+    font-size: 200px;
+  }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<style>
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container{
+
+        justify-content: center;
+        display: flex;
+    }
+
+    .header{
+        border-radius: 2rem;
+        width: 30rem;
+        background-color: rgba(0, 0, 0, 0.884);
+    }
+
+    .form{
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        padding: 30px;
+    }
+    label{
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    input{
+        outline: none;
+        background-color: rgba(0, 0, 0, 0.521);
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        color: white;
+        font-size: 15px;
+        height: 2rem;
+    }
+
+    hr{
+        cursor:cell;
+        width: 20px;
+        color: white;
+        background-color: white;
+    }
+
+    h1{
+        padding: 10px;
+        color: white;
+    }
+</style>
+<body>
+  <div class="container">
+    <div class="header">
+     <div class="form">
+        <label for="username">Username : </label>
+        <input placeholder="masukan text" type="text">
+        <label style="padding-top: 20px;" for="password">Password : </label>
+        <input placeholder="Password text" type="password" id="password">
+     </div>
+        <hr>
+      </div>
+  </div>
+</body>
+</html>

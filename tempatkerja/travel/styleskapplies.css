@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+.font-family{
+    font-family: "Anta", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  overflow-y: auto; /* Membuat konten dapat discroll jika melebihi ukuran container */
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}      
+
+body::-webkit-scrollbar-thumb {
+    background-color: #087bff;
+}
+
+body::-webkit-scrollbar-track {
+   background: white;
+}
+
+.brand{
+    font-weight: bold;
+}
+
+.container{
+    padding: 20px;
+}
+
+.header{
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(5, 5, 5);
+    padding: 30px;
+}
+
+.sk2{
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+}
+
+.deskripsi{
+    user-select: none;
+    overflow-y: auto; /* Membuat konten dapat discroll jika melebihi ukuran container */
+    height: 500px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.deskripsi::-webkit-scrollbar {
+    width: 10px;
+}      
+
+.deskripsi::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.deskripsi::-webkit-scrollbar-track {
+   background: white;
+}
+
+.custom-container p {
+    font-size: 20px;
+    text-align: justify; /* Ratakan teks di dalam elemen <p> */
+}
+
+.custom-container h1{
+    text-align: center;
+}
+
+.custom-container {
+    font-family: "Anta", sans-serif;
+    text-align: justify !important;
+    max-width: 800px; /* Lebar maksimum container */
+    margin-right: auto; /* Mengatur jarak tepi kanan */
+    margin-left: auto; /* Mengatur jarak tepi kiri */
+    padding-right: 20px; /* Padding di tepi kanan */
+    padding-left: 20px; /* Padding di tepi kiri */
+}
+
+.chatf{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: blue;
+}
+
+.text-update{
+    font-weight: bold;
+    color: rgb(153, 153, 153);
+    padding-top: 30px;
+    text-align: center !important;
+    font-size: 13px !important;
+}
+
+a{
+   color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: all .4s ease;
+}
+
+a:hover{
+    color: rgb(155, 155, 155);
+}
+
+.active{
+    border-top: 1px solid black;
+}
+
+
+
+span{
+    font-size: 30px !important;
+}

@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(98, 99, 100);
+}
+
+.card{
+    padding: 20px;
+    box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.32);
+-webkit-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.32);
+-moz-box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.32);
+    background-color: black;
+    color: white !important;
+}
+
+.padding{
+   padding-top: 3rem;
+}
+
+.card-img-top{
+    border-radius: 10px;
+}
+
+input{
+    padding: 10px 10px;
+    border-radius: 4px;
+}
+
+.name{
+    padding-top: 20rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.name h1{
+    font-weight: bold;
+}
