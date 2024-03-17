@@ -1,0 +1,139 @@
+body {
+    background-color: rgba(239, 245, 252, 0.541);
+}
+
+/* .navbar {
+    height: 80px;
+} */
+
+.navbar-brand {
+    font-size: 20px !important;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: black !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: #181818 !important;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Menengahkan secara vertikal */
+}
+
+.tab a {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    flex-direction: column;
+}
+
+
+.tab-link {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    background-color: #575757;
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid #575757;
+}
+
+
+.tab .active {
+    background-color: rgb(139, 3, 3);
+    border: 1px solid rgb(139, 3, 3);
+    ;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+.tab .disable {
+    border: 1px solid rgb(139, 3, 3);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: black !important;
+    padding: 10px;
+}
+
+.tab .garis {
+    border-bottom: 2px solid rgba(110, 109, 109, 0.418);
+    /* Menggunakan border-bottom */
+    flex: -2;
+    margin: 10px;
+    width: 100px !important;
+}
+
+.headers {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.31);
+    -webkit-box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.31);
+}
+
+/* .conten {
+    justify-content: center;
+    display: flex;
+} */
+
+.contens {
+    justify-content: center;
+    display: flex;
+}
+
+.information {
+    border-radius: 13px;
+    width: 74%;
+    border: 3px dashed rgb(219, 15, 15);
+    padding: 20px;
+}
+
+.information h5 {
+    font-weight: bold;
+}
+
+
+.information1 {
+    border-radius: 10px;
+    width: 90%;
+    padding: 10px;
+}
+
+
+.col-md li {
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+
+.memulai {
+    border-radius: 7px;
+    width: 74%;
+    padding: 10px;
+    background-color: #eaeaea;
+}
+
+
+
+@media (max-width: 760px) {
+    .information {
+        border-radius: 10px;
+        width: 90%;
+        border: 3px dashed rgb(219, 15, 15);
+        padding: 20px;
+    }
+}

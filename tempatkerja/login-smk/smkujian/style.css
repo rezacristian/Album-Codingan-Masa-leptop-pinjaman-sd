@@ -1,0 +1,78 @@
+body {
+    overflow-x: hidden;
+    background-image: linear-gradient(to bottom right, rgba(250, 97, 230, 0.178) 1%, rgba(8, 202, 236, 0.116) 20%,
+            rgba(8, 202, 236, 0.116) 90%);
+}
+
+.search {
+    border-radius: 10px;
+    background-image: linear-gradient(to top right, rgba(241, 241, 241, 0.164) 50%, rgba(241, 241, 241, 0.24) 50%);
+    padding: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(121, 120, 120, 0.466);
+    border: 1px solid rgba(0, 0, 0, 0.637);
+}
+
+.search input {
+    outline: none;
+    background: none;
+    border: none;
+    width: 300px;
+}
+
+.search i {
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    margin: 10px;
+    border-radius: 2rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* box-shadow: 0px 0px 23px -11px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 0px 0px 23px -11px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 0px 23px -11px rgba(0,0,0,0.63);*/
+    /* background-image: linear-gradient(to top right, rgba(248, 242, 242, 0.747), rgba(235, 235, 235, 0.753)); */
+    background-color: rgba(255, 255, 255, 0.377);
+    border-bottom: 1px solid black;
+}
+
+.soal-area {
+    height: 40rem;
+    overflow: auto;
+}
+
+.text-header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.pembatas {
+    border: none;
+    border-top: 1px solid rgb(0, 0, 0);
+    /* Warna garis putih */
+    margin: 10px 0;
+    /* Jarak atas dan bawah */
+}
+
+.text-body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+li {
+    padding-top: 10px;
+}
+
+.jawaban-text {
+    font-weight: bold;
+}
+
+.close-icon1 {
+    border-radius: 100%;
+    transition: all .3s ease;
+}
+
+.close-icon1:hover {
+    color: rgb(241, 10, 10);
+}
